@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Rails::Subdomain::VERSION
 
-  gem.add_dependency 'rails', '~> 3.2.0'
+  gem.add_dependency 'rails', '>= 3.1'
 end
